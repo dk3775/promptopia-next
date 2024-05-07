@@ -2,6 +2,7 @@ import "@styles/globals.css";
 
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
+import WebChat from "@components/WebChat";
 
 export const metadata = {
   title: "Promptopia",
@@ -21,6 +22,7 @@ const RootLayout = ({ children }) => (
           {children}
         </main>
       </Provider>
+      <WebChat />
     </body>
   </html>
 );
